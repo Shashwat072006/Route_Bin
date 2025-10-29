@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="binGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ade80;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#22c55e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Dustbin lid -->
+  <ellipse cx="50" cy="25" rx="28" ry="5" fill="#16a34a"/>
+  <rect x="47" y="18" width="6" height="8" rx="3" fill="#15803d"/>
+  
+  <!-- Dustbin body -->
+  <path d="M 28 30 L 32 85 Q 32 90 37 90 L 63 90 Q 68 90 68 85 L 72 30 Z" 
+        fill="url(#binGradient)" 
+        stroke="#15803d" 
+        stroke-width="2"/>
+  
+  <!-- Vertical lines on bin -->
+  <line x1="42" y1="35" x2="40" y2="82" stroke="#16a34a" stroke-width="2" opacity="0.5"/>
+  <line x1="50" y1="35" x2="50" y2="85" stroke="#16a34a" stroke-width="2" opacity="0.5"/>
+  <line x1="58" y1="35" x2="60" y2="82" stroke="#16a34a" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Recycling symbol -->
+  <g transform="translate(50, 60) scale(0.8)">
+    <path d="M -8,-5 L -3,-5 L 0,-10 L 3,-5 L 8,-5 L 4,0 L 8,5 L 3,5 L 0,10 L -3,5 L -8,5 L -4,0 Z" 
+          fill="none" 
+          stroke="white" 
+          stroke-width="1.5"/>
+  </g>
+</svg>
