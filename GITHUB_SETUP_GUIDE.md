@@ -132,7 +132,6 @@ You should see all your files including:
 - ✅ README.md with project documentation
 - ✅ package.json with correct repository URL
 - ✅ All source code in src/
-- ✅ LICENSE file
 - ✅ CONTRIBUTING.md
 - ✅ Custom favicon.svg
 - ✅ No Lovable references anywhere
@@ -145,7 +144,6 @@ You should see all your files including:
 - **Author**: Smart Waste Management Team
 - **Repository**: https://github.com/Shashwat072006/Route_Bin
 - **Version**: 1.0.0
-- **License**: MIT
 
 ---
 
